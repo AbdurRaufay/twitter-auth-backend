@@ -64,7 +64,7 @@ passport.use(
       includeEmail: true,
     },
     async (token, tokenSecret, profile, done) => {
-      console.log(profile.email,"p");
+      console.log(profile.email,"info");
       try {
         const existingUser = await User.findOne({ twitterId: profile.id });
         
