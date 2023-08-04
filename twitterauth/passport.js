@@ -59,7 +59,6 @@ passport.use(
     {
       consumerKey: '0V3aAF0k6f3cGMdltbGvsLgxC',
       consumerSecret: 'jX3a7wHQShEMNWMbwrwqlVilguecgciOmtjgpa6qzvVimsrONO',
-      // callbackURL: 'http://localhost:8080/auth/twitter/callback',
       callbackURL: 'https://calm-gold-codfish-wrap.cyclic.cloud/auth/twitter/callback',
       includeEmail: true,
     },
