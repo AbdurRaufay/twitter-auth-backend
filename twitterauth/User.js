@@ -5,6 +5,7 @@ const userSchema = new mongoose.Schema({
   twitterId: String,
   username: String,
   name: String,
+  email:String
 });
 
 const User = mongoose.model('User', userSchema);
