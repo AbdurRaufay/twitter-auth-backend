@@ -103,5 +103,5 @@ app.get(
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+  console.log(`Server running on ${"https://calm-gold-codfish-wrap.cyclic.cloud"}`);
 });
